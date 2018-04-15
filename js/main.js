@@ -5,7 +5,7 @@ var Narnia = {};
     var qtdeTimesProcessados = 0;
     var finalizouProcessamento = false;
 
-    var times = ['cachaca-s-esporte-clube', 'narnia-de-munique', 'sao-bacon-fc', 'boletos-fc', 'petrinhus-fc', 'xutebol-club', 'f-c-bariloche'];
+    var times = ['cachaca-s-esporte-clube', 'narnia-de-munique', 'sao-bacon-fc', 'boletos-fc', 'petrinhus-fc', 'f-c-bariloche'];
     var atletas_pontuados = [];
     var total_pontos = 0.00;
 
