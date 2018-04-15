@@ -38,7 +38,7 @@ var Narnia = {};
         var patrimonio = data.patrimonio;
 
         var atletas_html = '';
-        if (typeof atletas_pontuados !== 'undefined')
+        if (typeof atletas_pontuados !== 'undefined' && data.atletas)
             atletas_html = createAtletasTimeHtml(data.atletas);
 
         var parcial_rodada = (typeof atletas_pontuados !== 'undefined') ? total_pontos.toFixed(2) : pontos;
